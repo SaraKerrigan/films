@@ -1,0 +1,30 @@
+.rowBlock {
+  position: relative;
+}
+
+.rowBox {
+  width: 100%;
+  padding-right: 124px;
+}
+
+.inputBox {
+  width: 80%;
+
+  box-sizing: border-box;
+  &:focus {
+    border-bottom: 1px solid #000 !important;
+  }
+}
+
+.inputBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.inputBtn:disabled {
+  opacity: 0.7;
+  color: rgb(43, 0, 128)!important;
+  font-weight: 700;
+  background-color: rgb(0, 255, 85)!important;
+}

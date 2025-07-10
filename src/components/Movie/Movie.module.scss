@@ -1,0 +1,12 @@
+.cardImageImg {
+  height: 390px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100% - 390px);
+}
